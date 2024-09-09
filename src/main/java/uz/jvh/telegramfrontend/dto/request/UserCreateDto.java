@@ -4,8 +4,8 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import uz.jvh.prjoectmanagement.enumerators.Permissions;
-import uz.jvh.prjoectmanagement.enumerators.UserRole;
+import uz.jvh.telegramfrontend.enumerators.Permissions;
+import uz.jvh.telegramfrontend.enumerators.UserRole;
 
 import java.util.List;
 

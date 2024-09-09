@@ -1,9 +1,8 @@
 package uz.jvh.telegramfrontend.model;
-
-
 import jakarta.persistence.*;
 import lombok.*;
-import uz.jvh.prjoectmanagement.enumerators.StatusEnum;
+import uz.jvh.telegramfrontend.enumerators.StatusEnum;
+
 
 import java.util.List;
 

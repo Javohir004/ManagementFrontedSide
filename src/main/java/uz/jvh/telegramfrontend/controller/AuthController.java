@@ -3,6 +3,9 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
+import uz.jvh.telegramfrontend.dto.request.LoginDTO;
+import uz.jvh.telegramfrontend.dto.request.UserCreateDto;
+import uz.jvh.telegramfrontend.model.UserEntity;
 import uz.jvh.telegramfrontend.service.UserService;
 
 @Controller
@@ -36,7 +39,7 @@ public class AuthController {
 
 
     @PostMapping("/register")
-    public String register(@ModelAttribute User user) {
+    public String register(@ModelAttribute UserCreateDto user) {
         userService.save(user);
         return "login";
     }
